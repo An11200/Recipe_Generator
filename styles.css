@@ -1,0 +1,44 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #91c3ef;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #cc89c2;
+    color: rgb(160, 218, 138);
+    text-align: center;
+    padding: 1rem;
+}
+
+main {
+    margin: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, select, button {
+    padding: 10px;
+    font-size: 1rem;
+    
+}
+button{
+  background-color: aquamarine;  
+}
+
+#recipe-results {
+    margin-top: 20px;
+}
+
+.recipe-card {
+    background-color: rgb(111, 201, 239);
+    border: 1px solid #da7d7d;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
